@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Script -->
-    <script src="script.js"></script>
-</body>
+  <head>
+    <!-- Meta tags for character set and responsive design -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Infinity Scroll</title>
+    <!-- Font Awesome for icons (ensure the version supports any needed icons) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Title -->
+    <h1>Unsplash API - Infinite Scroll</h1>
+    <!-- Loader -->
+    <div class="loader" id="loader" hidden>
+      <img src="loader.svg" alt="Loading" />
+    </div>
+    <!-- Image Container -->
+    <div class="image-container" id="image-container"></div>
+    <!-- API configuration: This file should contain sensitive keys and is ignored in git -->
+    <script src="config.js"></script>
+    <!-- Main JavaScript file -->
+    <script src="/js/script.js"></script>
+  </body>
 </html>
